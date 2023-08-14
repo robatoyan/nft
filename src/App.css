@@ -1,0 +1,31 @@
+.App {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Footer-Footer {
+  width: clamp(200px, 100%, 1201px);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.Footer-Footer p {
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: #A4A4A4;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media screen and (max-width:530px) {
+  .Footer-Footer {
+    margin-top: 40px;
+  }
+}

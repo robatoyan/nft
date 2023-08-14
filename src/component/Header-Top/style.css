@@ -1,0 +1,224 @@
+.HeaderTop {
+    width: clamp(200px, 100%, 1180px);
+    margin: 0 auto;
+    min-height: 440px;
+    margin-top: 57px;
+    display: flex;
+    column-gap: 99px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px;
+}
+
+.HeaderDiscover {
+    width: clamp(200px, 100%, 612px);
+    min-height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.HeaderText {
+    display: flex;
+    flex-direction: column;
+}
+
+.HeaderText h2 {
+    font-size: clamp(20px, 5vw, 50px);
+    font-weight: 1400;
+    line-height: 48px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    height: 96px;
+    padding: 0;
+    margin: 0;
+}
+
+.HeaderText p {
+    font-family: DM Sans;
+    font-size: clamp(13px, 5vw, 20px);
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #565656;
+}
+
+.HeaderExplore {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.HeaderExplore button {
+    height: 65px;
+    width:clamp(100px,100%,209px) ;
+    border-radius: 60px;
+    padding: 20px 40px 20px 40px;
+    font-family: Averta Demo PE Cutted Demo;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.065em;
+    color: white;
+    background-color: #3D00B7;
+    border: unset;
+    margin-top: 41px;
+}
+
+.HeaderExplore .HeaderDivEXplores {
+    display: flex;
+    column-gap: 23px;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.HeaderExplore .HeaderDivEXplores div {
+    display: flex;
+    flex-direction: column;
+}
+
+.HeaderExplore .HeaderDivEXplores h3 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.HeaderExplore .HeaderDivEXplores span {
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #949494;
+}
+
+.HeaderImges {
+    width: clamp(200px, 100%, 465px);
+    height: 440px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.HeaderImges .Img2Header {
+    position: absolute;
+    top: 24px;
+    right: 31px;
+}
+
+.HeaderImges .Img3Header {
+    position: absolute;
+    top: 0;
+    right: 67px;
+}
+
+.HeaderImges .Img4Header {
+    position: absolute;
+    top: 198px;
+    left: -67px;
+}
+
+.userHeader {
+    position: absolute;
+    top: 26px;
+    left: 26px;
+    width: 237px;
+    min-height: 67px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.userHeader h2 {
+    padding: 0;
+    margin: 0;
+    font-family: DM Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    color: white;
+}
+
+.userHeader div {
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+}
+
+.userHeader div p {
+    font-family: DM Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.headerCurientBlud {
+    position: absolute;
+    top: 342px;
+    bottom: 23px;
+    left: 26px;
+    width: clamp(200px, 100%, 348px);
+    height: 73px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(25px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 104px;
+}
+
+.CuriorBuld {
+    width: 91px;
+    height: 41px;
+}
+
+.Edisin {
+    width: 103px;
+    height: 41px;
+}
+
+.headerCurientBlud p {
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.CuriorBuld div {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.headerCurientBlud span {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}

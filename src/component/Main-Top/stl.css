@@ -1,0 +1,20 @@
+@media screen and (max-width:350px){
+    .UserDatas{
+        column-gap: 10px;
+    }
+    .imgMainGl{
+        width: 200px;
+    }
+}
+@media screen and (max-width:1200px){
+    .MainGlavn{
+        justify-content: center;
+    }
+    .MainTopCenter{
+        align-items: center;
+    }
+    .UserMainData{
+        justify-content: center;
+    }
+}
+

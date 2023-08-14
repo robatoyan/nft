@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.MainTop {
+    width: 100%;
+    margin-top: 134px;
+    background-color: #F7F9FB;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.imgMainGl {
+    height: 272.2689208984375px;
+    width:265.851806640625px ;
+    left: 120px;
+    top: 2016px;
+    border-radius: 11.000763893127441px;
+
+}
+
+.imgMainimges {
+    height: 85.25592041015625px;
+    width: 103.59053039550781px;
+    left: 395.01910400390625px;
+    top: 2109.5064697265625px;
+    border-radius: 11.000763893127441px;
+}
+
+.MainImagess {
+    display: flex;
+    align-items: center;
+    column-gap: 9px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: center;
+ }
+
+.MainImagess div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 8px;
+}
+
+.MainGlavn {
+    display: flex;
+    column-gap: 9px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.MainTopCenter h2 {
+    font-family: Integral CF;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.MainTopCenter {
+    width: clamp(200px, 100%, 1202px);
+    min-height: 366px;
+    margin: 0 auto;
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 55px;
+    flex-wrap: wrap;
+}
+
+.UserMainData {
+    width: clamp(200px, 100%, 1199px);
+    min-height: 64px;
+    flex-wrap: wrap;
+}
+
+.UserMainData {
+    display: flex;
+    column-gap: 20px;
+}
+
+.UserDatas {
+    width: clamp(200px, 100%, 379px);
+    display: flex;
+    column-gap: 94px;
+    align-items: flex-end;
+}
+
+.UserDatas .UserDatAStitle {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.UserDatAStitle h3 {
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.UserDatAStitle div h4 {
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.UserDatas button {
+    width: 98px;
+    height: 29px;
+    border-radius: 60px;
+    border: 1px solid #2639ED;
+    font-family: DM Sans;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0em;
+    color:#2639ED;
+}
+
+.UserDatAStitle div {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}

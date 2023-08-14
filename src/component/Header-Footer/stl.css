@@ -1,0 +1,17 @@
+@media screen and (max-width:650px) {
+    .divsICons{
+        display: none;
+    }
+    .HeaderObJuSER{
+        width: 200px;
+        column-gap: unset;
+    }
+    .percentArry{
+        width: 100px;
+        column-gap: 10px;
+    }
+    .AllpercentData{
+        justify-content: center;
+    }
+
+}

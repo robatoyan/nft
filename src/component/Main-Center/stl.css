@@ -1,0 +1,42 @@
+@media screen and (max-width:640px) {
+    .Mainimges1 {
+        width: 200px;
+    }
+
+    .mainus {
+        width: 50px;
+        height: 50px;
+    }
+
+    .MainImgUser {
+        top: 150px;
+    }
+
+    .MainceterTop {
+        width: 200px;
+        height: 200px;
+    }
+    .MainCenterLeft{
+        width: 200px;
+    }
+    .MainCenterRight{
+        width: 200px;
+    }
+
+}
+
+@media screen and (max-width:564px) {
+    .MainCenterImg {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: -110px;
+    }
+    .MainImgUser2{
+        right: -20px;
+        top:180px
+    }
+    .MainCenterLeft{
+        width: 200px;
+       min-height: unset;
+    }
+}

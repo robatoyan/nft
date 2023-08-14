@@ -1,0 +1,42 @@
+@media screen and (max-width:650px) {
+    .HeaderDiscover {
+        width: unset;
+    }
+    .headerCurientBlud {
+        width: 200px;
+    }
+
+    .HeaderExplore button {
+        width: 150px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .headerCurientBlud p {
+        font-size: 10px;
+    }
+    .headerCurientBlud span{
+        font-size: 10px;
+    }
+
+   
+}
+
+@media screen and (max-width:350px) {
+    .headerCurientBlud {
+        width: 200px;
+        left: 0;
+    }
+    .userHeader {
+        top: 80px;
+        left: unset;
+    }
+    .headerCurientBlud span{
+        font-size: 10px;
+    }
+   .headerCurientBlud {
+    column-gap: 40px;
+   }
+}

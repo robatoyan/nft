@@ -1,0 +1,166 @@
+.Menu {
+    width: 100%;
+    min-height: 78px;
+    margin-top: 31px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #EFEFEF
+}
+
+.MenuGlavni {
+    width: clamp(200px, 100%, 1314px);
+    min-height: 50px;
+    display: flex;
+    column-gap: 70px;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    justify-content: center;
+}
+
+.MenuLeft {
+    width: clamp(200px, 100%, 493px);
+    display: flex;
+    min-height: 29px;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.MenuLeft h2 {
+    font-family: Integral CF;
+    font-size: clamp(17px, 5vw, 24px);
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3D00B7;
+}
+
+.MenuLeft ul {
+    width: clamp(200px, 100%, 320px);
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    column-gap: 47px;
+    font-size: clamp(13px, 5vw, 16px);
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.MenuRight {
+    width: clamp(200px, 100%, 627px);
+    min-height: 50px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    justify-content: center;
+    column-gap: 15px;
+}
+
+.MenuRight .MenuInput {
+    width: clamp(200px, 100%, 300px);
+    height: 50px;
+    border: 2px solid #EFEFEF;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 170px;
+}
+
+.MenuRight .MenuInput input {
+    width: 56px;
+    height: 21px;
+    border: unset;
+    list-style: none;
+}
+
+.MenuRight .MenuInput .fa {
+    font-size: 20px;
+    color: #989898;
+}
+
+.MenuRight .btn1 {
+    width: 131px;
+    height: 50px;
+    border-radius: 60px;
+    border: unset;
+    background-color: #3D00B7;
+    color: white;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+
+}
+
+.MenuRight .btn2 {
+    width: 156px;
+    height: 50px;
+    border-radius: 60px;
+    border: 2px solid #3D00B7;
+    color: #3D00B7;
+    background-color: transparent;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+}
+
+.fa-bars {
+    display: none;
+}
+
+.MenuClick {
+    width: 0;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    height: 160px;
+    background-color: #3D00B7;
+    color: white;
+    transition: 1s;
+    border-radius: 12px;
+    transition: all 0.6s;
+}
+
+.btnClick {
+    width: 100px;
+    transition: all 0.6s;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    height: 160px;
+    background-color: #3D00B7;
+    color: white;
+    transition: 1s;
+    border-radius: 12px;
+}
+
+.fa-times {
+    float: right;
+    padding-right: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.MenuClick ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 15px;
+    row-gap: 12px;
+    list-style: none;
+    margin-top: 32px;
+    margin-right: 40px;
+}

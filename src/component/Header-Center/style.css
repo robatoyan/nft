@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.HeaderCenter {
+    width: 100%;
+    min-height: 326px;
+    background-color: #F7F9FB;
+    margin-top: 122px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 85px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.HeaderCenter h2 {
+    font-family: Integral CF;
+    font-size: clamp(20px, 5vw, 28px);
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.HeaderCenter h3 {
+    font-family: DM Sans;
+    font-size:clamp(13px,5vw,20px) ;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.HeaderCenter P {
+    font-family: DM Sans;
+    font-size:clamp(10px,5vw,14px) ;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#696969;
+}
+
+.HeaderStatistica {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 56px;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.HeaderCarts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.HeaderCarts div {
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+}
+
+.HeaderCenter .fa {
+    font-size: 40px;
+}
+
+.HeaderStatistic {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.HeaderStatistic div {
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+}

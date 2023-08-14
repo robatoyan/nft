@@ -1,0 +1,14 @@
+@media screen and (max-width:350px){
+    .MenuRight .MenuInput{
+        width: 200px;
+        column-gap: 100px;
+    }
+    .MenuLeft ul{
+        display: none;
+    }
+    .fa-bars{
+        display: flex;
+        color: #3D00B7;
+        font-size: 20px;
+    }
+}

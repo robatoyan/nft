@@ -1,0 +1,323 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.HeaderFooter {
+    width: clamp(200px, 100%, 1270px);
+    min-height: 540px;
+    margin: 0 auto;
+    margin-top: 134px;
+    display: flex;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 40px;
+}
+
+.HeaderSlider {
+    width: clamp(200px, 100%, 839px);
+    min-height: 50px;
+    display: flex;
+    column-gap: 53px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.headeImgUSersObj {
+    width: clamp(200px, 100%, 400px);
+    height: 424px;
+
+}
+
+.divsICons {
+    width: 1px;
+    height: 540px;
+    background-color: #F5F5F5;
+}
+
+.HeaderObJuSER {
+    width:clamp(200px,100%, 400px);
+    min-height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 112px;
+}
+
+.HeaderImgUsers div {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.HeaderImgUsers div h4 {
+    font-family: DM Sans;
+    font-size:clamp(14px,5vw,20px) ;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.HeaderImgUsers div p {
+    font-family: DM Sans;
+    font-size:clamp(12px,5vw,14px) ;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #363639;
+}
+
+.headerObjRating {
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+}
+
+.headerObjRating p {
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #363639;
+}
+
+.headerObjRating div {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.HeaderimgUserObj {
+    width: 48px;
+    height: 48px;
+}
+
+.headerObjRating h3 {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.HeaderImgUsers {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.HeaderImgArry {
+    width: clamp(200px, 100%, 334px);
+    min-height: 540px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 41px;
+}
+
+.HeaderImgOBJECT {
+    width: clamp(200px, 100%, 400px);
+    min-height: 540px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+
+.HeaderArr {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.HeaderArTitle {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.HeaderArTitle button {
+    height: 45px;
+    width: 113px;
+    left: 740px;
+    top: 1469px;
+    border-radius: 50px;
+    padding: 14px 20px 14px 20px;
+    font-family: Averta Demo PE Cutted Demo;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: #220970;
+    border: 2px solid #220970;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.6s;
+
+}
+
+.HeaderArTitle button:hover {
+    transition: 0.6s;
+    background-color: #3D00B7;
+    color: white;
+}
+
+.HeaderEat {
+    display: flex;
+    flex-direction: column;
+    row-gap: 9px;
+}
+
+.HeaderEat h4 {
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.HeaderEat .HeaderUsersImg {
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+}
+
+.HeaderUsersImg div {
+    width: 80.53px;
+    height: 32px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    border: 1px solid #00AC4F;
+}
+
+.HeaderUsersImg div p {
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00AC4F;
+}
+
+.HeaderUsersImg .fa {
+    font-size: 14px;
+    color: #00AC4F;
+}
+
+
+.HeaderRating {
+    width: clamp(200px, 100%, 365px);
+    min-height: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 50px;
+}
+
+.percentArry {
+    display: flex;
+    height: 62px;
+    column-gap: 22px;
+    align-items: center;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+.AllpercentData {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.HeaderPrentTitle {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.HeaderPrentTitle h3 {
+    font-family: Integral CF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.HeaderPrentTitle h5 {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3D00B7;
+}
+
+.percentArry h2 {
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.025em;
+    text-align: center;
+
+}
+
+.percentArry h3 {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.025em;
+    text-align: left;
+
+}
+
+.percentArry p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: -0.025em;
+    text-align: left;
+
+}
+
+.percentArry h5 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: -0.025em;
+    text-align: right;
+    color: #14C8B0;
+
+}
+
+.TitleRating {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.TitleRating div {
+    display: flex;
+    column-gap: 6px;
+    align-items: center;
+}

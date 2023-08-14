@@ -1,0 +1,260 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.MainFooter {
+    width: 100%;
+    margin-top: 82px;
+    padding-bottom: 47px;
+    background-color: #F7F9FB;
+}
+
+.MainFooter H2 {
+    font-family: Integral CF;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.MainMenu {
+    width: clamp(200px, 100%, 1193px);
+    margin: 0 auto;
+    min-height: 151px;
+    margin-top: 64px;
+    display: flex;
+    align-items: center;
+    column-gap: 385px;
+    flex-wrap: wrap;
+    row-gap: 40px;
+}
+
+.MainMenu ul {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    list-style: none;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.MainMenu ul li {
+    padding: 10px 20px 10px 20px;
+    border-radius: 100px;
+    background-color: #F2F3F5;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    cursor: pointer;
+}
+
+.MainMenu div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 38px;
+}
+.MainMenu div h2{
+    margin-top: 64px;
+}
+
+.MainMenu button {
+    height: 44px;
+    width: 135px;
+    border-radius: 100px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 75px;
+    background-color: #F2F3F5;
+    border: unset;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: #4E3794;
+}
+
+.MainMenuArrye {
+    width: clamp(200px, 100%, 1193px);
+    margin: 0 auto;
+    margin-top: 36px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 39px;
+    row-gap: 40px;
+    justify-content: center;
+}
+
+.MainMenuButton {
+    width: clamp(200px, 100%, 1193px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+.MainMenuButton button {
+    height: 66px;
+    width: 179px;
+    border-radius: 50px;
+    padding: 20px 40px 20px 40px;
+    margin: 0 auto;
+    border: 2px solid #3D00B7;
+    background-color: unset;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4F33A3;
+}
+
+.MenuDivData {
+    width: 268px;
+    height: 373px;
+    display: flex;
+    flex-direction: column;
+}
+
+.MenuDivTItle {
+    width: 230px;
+    min-height: 37px;
+    height: 65px;
+    margin-top: 21px;
+    display: flex;
+    row-gap: 5px;
+    column-gap: 29px;
+    margin-left: 10px;
+    border-bottom: 1px solid #F6F6F6;
+}
+
+.MenuDivTItle h3 {
+    width: 97px;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.divsPirceMain .fa {
+    color: #00AC4F;
+}
+
+
+.MenuTitlePriceMain {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.DivsClssMen div {
+    display: flex;
+    column-gap: 4px;
+    align-items: center;
+}
+
+.DivsClssMen div .fa {
+    font-size: 13px;
+    color: #00AC4F;
+}
+
+.DivsClssMen p {
+    width: 100px;
+}
+
+.DivsClssMen {
+    display: flex;
+    column-gap: 44px;
+}
+
+.DivsClssMen h5 {
+    width: 100px;
+}
+
+
+.MenuDivData .mainimges {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.divsPirceMain {
+    display: flex;
+    align-items: flex-end;
+    column-gap: 4px;
+}
+
+.MenuTitlePriceMain h3 {
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.divsPirceMain h5 {
+    font-family: DM Sans;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00AC4F;
+}
+
+.DivsClssMen p {
+    font-family: DM Sans;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #838383;
+    margin-top: 28px;
+
+}
+
+.ButonMainCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 83px;
+    margin-top: 10px;
+}
+
+.ButonMainCenter button {
+    height: 28.776470184326172px;
+    width: 96.94117736816406px;
+    left: 22.8382568359375px;
+    top: 332.2823486328125px;
+    border-radius: 109.70587921142578px;
+    padding: 4px 11px 4px 11px;
+    background-color: #d5ceea;
+    color: #4F33A3;
+    font-family: DM Sans;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: unset;
+}
+
+.ButonMainCenter p {
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4F33A3;
+}
